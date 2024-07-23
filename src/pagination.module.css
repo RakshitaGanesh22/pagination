@@ -1,0 +1,56 @@
+.Table{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(228, 225, 235, 0.688);
+}
+.Mainn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.Main{
+    display:flex;
+    justify-content:center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34.47px;
+    margin-bottom: 20px;
+    
+}
+.tableMain{
+    width: 90%;
+    height: 90%;
+   border-top: 2px solid rgb(29, 146, 84);
+   border-bottom: 2px solid rgb(29, 146, 84);
+}
+.GreenMain{
+    background-color: rgb(29, 146, 84);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    border: 2px solid rgb(29, 146, 84);
+}
+.tbody{
+   border:1px solid black ;
+}
+.list{
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+      
+      
+}
+.list1{
+    background-color:rgb(29, 146, 84) ;
+    color: white;
+}
+.list2{
+    width: 30px;
+    background-color:rgb(29, 146, 84) ;
+    color: white;
+}

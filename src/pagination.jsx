@@ -19,9 +19,9 @@ export default function Pagination(){
             ShowInitialData(data.current);
             }
             catch(err){
-                console.error("fetching data error"+err);
-                console.log("fetching data error"+err);
                 window.alert("fetching data error"+err);
+                console.error("fetching data error"+err);
+                console.log("failed to fetch data");
             }
             function ShowInitialData(data1){
                 setFilter(()=>{
